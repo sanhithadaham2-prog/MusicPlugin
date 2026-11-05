@@ -1,0 +1,10 @@
+name: SpotifyMusicPlugin
+version: 1.0
+main: com.example.musicplugin.SpotifyMusicPlugin
+api-version: 1.16
+depend: [NoteBlockAPI]
+commands:
+  music:
+    description: Play or stop global server music synced via Spotify queries.
+    usage: /music <song name by artist> or /music stop
+    permission: spotifymusic.use
